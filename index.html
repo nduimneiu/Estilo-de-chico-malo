@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motívate Hoy</title>
+    <title>Tienda Tech</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- HEADER -->
     <header>
-        <h1>Motívate Hoy</h1>
-        <p class="sub">Pequeños pasos, grandes resultados</p>
+        <h1>🔥 Tienda Tech</h1>
+        <p class="sub">Los mejores gadgets al mejor precio</p>
+
+        <!-- BUSCADOR -->
+        <input type="text" id="buscador" placeholder="Buscar productos...">
     </header>
 
-    <!-- FRASE MOTIVADORA -->
-    <section class="frase-box">
-        <h2 id="frase">Haz clic en el botón para inspirarte ✨</h2>
-        <button onclick="nuevaFrase()">Nueva frase</button>
+    <!-- LISTA DE PRODUCTOS -->
+    <section id="productos" class="lista-productos">
+        <!-- Los productos se generan desde script.js -->
     </section>
 
-    <!-- FOOTER -->
+    <!-- CARRITO -->
+    <div id="carritoBox" class="carrito-box">
+        <h2>🛒 Carrito</h2>
+        <div id="carritoLista"></div>
+        <p id="total"></p>
+    </div>
+
     <footer>
-        <p>Creado con ❤️ por Ti</p>
+        <p>© 2025 Tienda Tech • Todos los derechos reservados</p>
     </footer>
 
     <script src="script.js"></script>
